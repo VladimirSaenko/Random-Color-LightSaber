@@ -7,8 +7,7 @@
 }
 
 body {
-    background: rgb(0, 0, 0);
-    
+    background: black;
 }
 
 :root {
@@ -40,8 +39,6 @@ body {
     border: white 5px solid;
 }
 
-/* Световой меч  */
-
 .lightsaber {
     margin-top: 50vh;
     grid-column: 1 / -1;
@@ -54,7 +51,9 @@ body {
     height: 0;
 }
 
-.hilt {
+/* Рукоятка светового меча */
+
+.handle {
     cursor: pointer;
     display: block;
     width: 14px;
@@ -86,6 +85,7 @@ body {
 .blade {
     position: absolute;
     background: white;
+    cursor: pointer;
     height: 350%;
     width: 100%;
     bottom: 100%;
@@ -101,20 +101,6 @@ body {
     transform-origin: bottom;
 }
   
-/* .blade::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: hsl(var(--blade-hue) 100% var(--blade-lightness));
-    border-radius: inherit;
-    filter: blur(0.5em);
-    opacity: 1;
-    animation: pulse linear 5s infinite;
-} */
-  
 .blade::before {
     content: "";
     position: absolute;
@@ -127,7 +113,8 @@ body {
     z-index: 10;
 }
 
-/* Turn lightsaber on and off */
+/* Включение Выключение светового меча */
+/* Скрывает или показывает клинок светового меча */
   
 #on-off:not(:checked) + .blade {
     transform: scaleY(0);
