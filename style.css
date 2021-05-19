@@ -39,6 +39,11 @@ body {
     border: white 5px solid;
 }
 
+.randomColorBtn:hover {
+    background: white;
+    color: black;
+}
+
 .lightsaber {
     margin-top: 50vh;
     grid-column: 1 / -1;
@@ -99,6 +104,7 @@ body {
     0 0 5em hsl(var(--blade-color) 100% var(--blade-lightness) / 0.2);
     transition: transform 100ms ease-out;
     transform-origin: bottom;
+    transition: 1s;
 }
   
 .blade::before {
@@ -122,4 +128,19 @@ body {
   
 #on-off:checked + .blade {
     transform: scaleY(1);
+}
+
+.rgbStreamBtn {
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    margin-top: 20px;
+    width: 350px;
+    border-radius: 35px;
+    height: 60px;
+    font-size: 35px;
+    color: white;
+    background: black;
+    border: white 5px solid;
+    transition: 1s;
 }
