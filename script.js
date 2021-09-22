@@ -8,7 +8,7 @@ rgbStreamButton.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt
 function rgbTextParty() {
     setInterval(function() {
         rgbStreamButton.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
-    }, 500);
+    }, 1000);
 }
 
 function rgbParty() {
