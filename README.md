@@ -1,8 +1,8 @@
 # Random-Color-LightSaber
 
-![img-portfolio](https://user-images.githubusercontent.com/56477695/119190980-b7fb0f00-ba86-11eb-9f17-ade95c6f7cdf.png)
-
 ### Случайный цвет светового меча
+
+![img-portfolio](https://user-images.githubusercontent.com/56477695/138551565-0308fbe2-9603-411f-8d52-dedf2fff8d58.jpg)
 
 ## Portfolio {
 
