@@ -1,10 +1,6 @@
 
 "use strict";
 
-let rgbStreamButton = document.getElementById("rgbparty");
-let mainbutton = document.getElementById("mainbtn");
-rgbStreamButton.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
-
 function rgbTextParty() {
     setInterval(function() {
         rgbStreamButton.style.color = 'rgb(' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ', ' + getRandomInt(0,255) + ')';
@@ -26,4 +22,3 @@ function getRandomInt(min, max) {
 }
 
 getRandomColor();
-rgbTextParty();
