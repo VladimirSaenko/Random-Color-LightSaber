@@ -120,7 +120,6 @@ body {
 }
 
 /* Включение/Выключение светового меча */
-/* Скрывает или показывает клинок светового меча */
   
 #on-off:not(:checked) + .blade {
     transform: scaleY(0);
@@ -129,19 +128,4 @@ body {
   
 #on-off:checked + .blade {
     transform: scaleY(1);
-}
-
-.rgbStreamBtn {
-    cursor: pointer;
-    text-align: center;
-    outline: none;
-    margin-top: 20px;
-    width: 350px;
-    border-radius: 35px;
-    height: 60px;
-    font-size: 35px;
-    color: white;
-    background: black;
-    border: white 5px solid;
-    transition: 1s;
 }
