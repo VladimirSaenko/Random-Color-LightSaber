@@ -85,6 +85,8 @@ body {
       silver 50px 100%
     );
 }
+
+/* Лезвие */
   
 .blade {
     position: absolute;
