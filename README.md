@@ -1,7 +1,5 @@
 # Random-Color-LightSaber
 
-### Случайный цвет светового меча 
-
 ### Portfolio: https://vladimirsaenko.github.io/Portfolio-3/sites/site-20/Random-Color-Lightsaber/index.html
 
 ### Codepen: https://codepen.io/vladimirsaenko/pen/QWQyEZV
